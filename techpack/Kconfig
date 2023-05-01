@@ -6,3 +6,22 @@ config OSSFOD
 	depends on BOARD_XIAOMI
 	help
 	  When this option is enabled, OSS FOD support will be added.
+
+menu "Camera packages"
+
+config TECHPACK_CAMERA_XIAOMI
+    bool "Xiaomi camera"
+    help
+      Xiaomi camera
+
+config TECHPACK_CAMERA_XIAOMI_CAS
+    bool "Xiaomi camera CAS"
+    help
+      Xiaomi camera CAS
+
+config TECHPACK_CAMERA_XIAOMI_TABLET
+    bool "Xiaomi camera tablet"
+    help
+      Xiaomi camera tablet
+
+endmenu
